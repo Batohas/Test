@@ -1,5 +1,7 @@
-"use strict";
-
+function str() {
+  "use strict";
+  return str;
+}
 //!  Передача по ссылке или по значению, Spread оператор (ES6-ES9). Создание копии
 
 //? Поверхностная копия обьектов. Копируются свойста только на первом уровне.
@@ -48,10 +50,10 @@ clone.d = 20;
 
 //! 3 способ - для массивов. .slice()
 
-const oldArray = ['a', 'b', 'c']
+const oldArray = ['a', 'b', 'c'];
 const newArray = oldArray.slice();
 
-newArray[1] = 'etw'
+newArray[1] = 'etw';
 console.log(newArray);
 console.log(oldArray);
 
