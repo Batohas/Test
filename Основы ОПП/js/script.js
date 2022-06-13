@@ -19,7 +19,7 @@ const john = Object.create(soldier);
 // };
 
 //todo Устанавливает прототип указанного объекта 
-// Object.setPrototypeOf(john, soldier);
+Object.setPrototypeOf(john, soldier);
 
 
 
