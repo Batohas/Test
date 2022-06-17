@@ -62,4 +62,5 @@ div.innerHTML = "<h1>Hello</h1>";
 
 div.insertAdjacentHTML('beforeend', '<h1>privet</h1>');
 
+//? Добавляет/Заменяет текст
 // div.textContent = 'hello';
